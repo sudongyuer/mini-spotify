@@ -10,7 +10,6 @@ const Home: NextPage = () => {
         <title>mini-spotify</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div>This is a DOPE spotify build</div>
       <main>
         <Sidebar></Sidebar>
         {/* Center */}
