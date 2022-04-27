@@ -23,7 +23,7 @@ function Sidebar() {
         <LibraryIcon className="h-5 w-5"/>
         <p>Your Library</p>
       </button>
-      <hr className="border-t-[0.1px] border-gary-900" />
+      <hr className="border-t-[0.1px] border-gray-900" />
       <button className="flex items-center space-x-2 hover:text-white">
         <HeartIcon className="h-5 w-5"/>
         <p>Create Playlist</p>
@@ -36,9 +36,18 @@ function Sidebar() {
         <LibraryIcon className="h-5 w-5"/>
         <p>Your Episodes</p>
       </button>
-      <hr className="border-t-[0.1px] border-gary-900" />
+      <hr className="border-t-[0.1px] border-gray-900" />
       </div>
       {/* PlayLists */}
+      <p className="cursor-pointer hover:text-white">Playlist name...</p>
+      <p className="cursor-pointer hover:text-white">Playlist name...</p>
+      <p className="cursor-pointer hover:text-white">Playlist name...</p>
+      <p className="cursor-pointer hover:text-white">Playlist name...</p>
+      <p className="cursor-pointer hover:text-white">Playlist name...</p>
+      <p className="cursor-pointer hover:text-white">Playlist name...</p>
+      <p className="cursor-pointer hover:text-white">Playlist name...</p>
+      <p className="cursor-pointer hover:text-white">Playlist name...</p>
+      <p className="cursor-pointer hover:text-white">Playlist name...</p>
     </div>
   )
 }
