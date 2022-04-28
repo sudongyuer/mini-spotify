@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import Center from '../components/Center'
 import Sidebar from '../components/Sidebar'
 
 const Home: NextPage = () => {
@@ -10,9 +11,10 @@ const Home: NextPage = () => {
         <title>mini-spotify</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
-        <Sidebar></Sidebar>
+      <main className="flex">
+        <Sidebar/>
         {/* Center */}
+        <Center/>
       </main>
       <div>{/*Player*/ }</div>
     </div>
