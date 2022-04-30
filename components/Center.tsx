@@ -36,7 +36,7 @@ function Center() {
     <div className="flex-grow ">
       <header className="absolute top-5 right-8">
         <div className="flex items-center space-x-3 opacity-90 hover:opacity-80 
-        cursor-pointer rounded-full bg-red-300
+        cursor-pointer rounded-full bg-black text-white
         p-1 pr-2 ">
           <img className="rounded-full w-10 h-10" src={session?.user?.image!} alt="" />
           <h2>{session?.user?.name}</h2>
