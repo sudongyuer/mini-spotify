@@ -33,7 +33,7 @@ function Center() {
 
   console.log('playlist',playlist);
   return (
-    <div className="flex-grow ">
+    <div className="flex-grow overflow-y-scroll h-screen">
       <header className="absolute top-5 right-8">
         <div className="flex items-center space-x-3 opacity-90 hover:opacity-80 
         cursor-pointer rounded-full bg-black text-white
@@ -45,7 +45,7 @@ function Center() {
       </header>
 
       <section className={`flex items-end space-x-7 bg-gradient-to-b to-black
-       ${color} w-full h-80 text-white p-8`}>
+       ${color} w-full h-80 text-white p-8 `}>
         <img className="w-44 h-44 shadow-2xl" src={playlist?.images[0].url} alt="" />
         <p>
           PLAYLIST
