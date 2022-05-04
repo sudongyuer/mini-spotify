@@ -2,11 +2,11 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import Center from '../components/Center'
+import ErrorBoundary from '../components/ErrorBoundary'
 import Player from '../components/Player'
 import Sidebar from '../components/Sidebar'
 
 const Home: NextPage = () => {
-  
   return (
     <div className="bg-black h-screen overflow-hidden  text-gray-500">
       <Head>
