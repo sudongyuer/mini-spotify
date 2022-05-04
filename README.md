@@ -1,23 +1,35 @@
-# Next.js + Tailwind CSS Example
+# mini-spotify
+> 该项目仅供学习 请勿商用
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+![](https://tva1.sinaimg.cn/large/e6c9d24egy1h1wyyrk6myj21kr0u00we.jpg)
+## 技术栈
 
-## Deploy your own
+- TypeScript
+- Next.js
+- Recoil
+- NextAuth
+- Tailwind
+- Spotify API
+- Middleware
+- Pnpm
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+## 如何使用
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+- 点击这个链接👉 [mini-slack](https://mini-spotify-rose.vercel.app/)
 
-## How to use
+-  登录自己的Spotify[https://developer.spotify.com/] 去developer页面创建你的项目并查看你的Client ID和Client Secret
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+- Fork项目 并在.env.local中添加你的Client ID和Client Secret
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-# or
-pnpm create next-app -- --example with-tailwindcss with-tailwindcss-app
-```
+- pnpm run dev
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+
+
+## 请我喝咖啡☕️
+如果觉得这个项目能够帮助到您，请给我个star🌟，或者推荐给您的朋友,我会继续努力的,您也可以加我`VX:sudongyuer` 和我交流
+持续更新中 ～ 🚀🚀🚀
+
+![](https://tva1.sinaimg.cn/large/e6c9d24egy1h1h9qs8rhmj20u00u0765.jpg)
+
+## License
+MIT
