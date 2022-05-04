@@ -5,6 +5,10 @@ import { currentTrackIdState, isPlayingState } from '../atoms/songAtom'
 import useSongInfo from '../hooks/useSongInfo'
 import useSpotify from '../hooks/useSpotify'
 import {
+  HeartIcon,
+  VolumeUpIcon as VolumeDownIcon,
+} from "@heroicons/react/outline";
+import {
   FastForwardIcon,
   PauseIcon,
   PlayIcon,
@@ -36,11 +40,11 @@ function Player() {
     }
   }
   const handlePlayPause = () => {
-    spotifyApi.getMyCurrentPlaybackState().then((data)=>{
-      if(data.body?.is_playing){
+    spotifyApi.getMyCurrentPlaybackState().then((data) => {
+      if (data.body?.is_playing) {
         spotifyApi.pause()
         setIsPlaying(false)
-      }else{
+      } else {
         spotifyApi.play()
         setIsPlaying(true)
       }
@@ -91,7 +95,16 @@ function Player() {
         />
       </div>
       {/* right */}
-      
+      <div className="flex items-center space-x-3 md:space-x-4 justify-end pr-5">
+        <VolumeDownIcon className='button' />
+        <input
+          className="w-14 md:w-28"
+          type="range" value=""
+          min={0}
+          max={100}
+        />
+        <VolumeUpIcon className='button' />
+      </div>
     </div>
   )
 }
