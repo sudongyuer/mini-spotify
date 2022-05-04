@@ -35,9 +35,11 @@ function Player() {
     }
   },[currentTrackId,spotifyApi,session])
   return (
-    <div className="h-24 bg-gradient-to-b from-black to-gray-900 text-white">
+    <div className="h-24 bg-gradient-to-b from-black 
+    to-gray-900 grid grid-cols-3 text-xs md:text-base px-2 md:px-8
+     text-white">
       {/* left */}
-      <div>
+      <div className="flex items-center space-x-4">
         {/* @ts-ignore */}
         <img className="hidden md:inline h-10 w-10" src={songInfo?.album.images[0]?.url} alt="" />
         <div>
@@ -45,6 +47,7 @@ function Player() {
           <p>{songInfo?.artists[0].name}</p>
         </div>
       </div>
+      {/* center */}
     </div>
   )
 }
