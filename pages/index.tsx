@@ -10,7 +10,7 @@ const Home: NextPage = () => {
     <div className="bg-black h-screen overflow-hidden  text-gray-500">
       <Head>
         <title>mini-spotify</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <main className="flex">
         <Sidebar />
