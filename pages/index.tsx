@@ -6,6 +6,7 @@ import Player from '../components/Player'
 import Sidebar from '../components/Sidebar'
 
 const Home: NextPage = () => {
+  
   return (
     <div className="bg-black h-screen overflow-hidden  text-gray-500">
       <Head>
