@@ -17,7 +17,7 @@
 
 ## 如何使用
 
-- 点击这个链接👉 [mini-slack](https://mini-spotify-rose.vercel.app/)
+- 点击这个链接👉 [mini-spotify](https://mini-spotify-rose.vercel.app/)
 
 -  登录自己的Spotify[https://developer.spotify.com/] 去developer页面创建你的项目并查看你的Client ID和Client Secret
 
